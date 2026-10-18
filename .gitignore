@@ -1,0 +1,17 @@
+# Dependencies — every machine installs its own
+node_modules/
+
+# Secrets — NEVER commit these
+.env
+.env.*
+!.env.example
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
